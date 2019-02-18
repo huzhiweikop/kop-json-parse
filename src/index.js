@@ -2,9 +2,9 @@ let kopJsonParse = (str) =>{
 	if(typeof str !== 'string'){
 		return str
 	}
-	if(str.trim() == ''){
-		return {}
-	}
+	// if(str.trim() == ''){
+	// 	return {}
+	// }
 	try {
 		return JSON.parse(str)
 	} catch (e) {
