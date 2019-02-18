@@ -8,6 +8,16 @@
 
 ## 安装下载
 
-- 下载地址 https://github.com/huzhiweikop/kop-json-parse/releases
-- `npm i kop-json-parse` `let kopJsonParse = require('./src/index.js')` `kopJsonParse(str)`
-- CDN http://unpkg.com/kop-json-parse/lib/index.js `kopJsonParse(str)`
+- 下载地址：https://github.com/huzhiweikop/kop-json-parse/releases
+- NPM：`npm i kop-json-parse`
+- CDN：http://unpkg.com/kop-json-parse/lib/index.js
+
+## 使用方法
+
+
+```
+//引入方法（cdn方式不用引入，会直接写入window对象kopJsonParse属性）
+let kopJsonParse = require('kopJsonParse')
+//执行方法
+kopJsonParse(str)
+```
