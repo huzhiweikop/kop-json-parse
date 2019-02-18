@@ -1,0 +1,21 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<meta http-equiv="X-UA-Compatible" content="ie=edge">
+	<title>测试kop-json-parse</title>
+</head>
+<body>
+	输入要parse的字符串: <input type="text" id="str" onchange="parse()">
+	<p id="result">当你离开输入框后，函数将被触发，将展示parse的结果</p>
+	<script src="../src/index.js"></script>
+	<script type="text/javascript">
+		function parse(){
+			var x = document.getElementById("str");
+			document.getElementById("result").innerHTML=kopJsonParse(x.value)
+		}
+
+	</script>
+</body>
+</html>
