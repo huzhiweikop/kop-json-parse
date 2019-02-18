@@ -1,6 +1,11 @@
-let kopJsonParse = require('./src/index.js')
-if(typeof window != 'undefined'){
-	window.kopJsonParse = kopJsonParse;
+let kopJsonParse = (str) =>{
+	if(typeof str !== 'string'){
+		return str
+	}
+	try {
+		return JSON.parse(str)
+	} catch (e) {
+		return str
+	}
 }
-console.log(kopJsonParse);
-module.exports = kopJsonParse;
+module.exports = kopJsonParse

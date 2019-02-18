@@ -2,13 +2,9 @@
   "name": "kop-json-parse",
   "version": "0.2.8",
   "description": "A better 'JSON.parse()'",
-  "main": "lib/index.js",
-  "files": [
-    "lib"
-  ],
+  "main": "index.js",
   "scripts": {
     "test": "http-server -p 8880",
-    "build": "webpack"
   },
   "repository": {
     "type": "git",
@@ -28,7 +24,5 @@
   "homepage": "https://github.com/huzhiweikop/kop-json-parse#readme",
   "devDependencies": {
     "http-server": "^0.11.1",
-    "webpack": "^4.29.5",
-    "webpack-cli": "^3.2.3"
   }
 }
