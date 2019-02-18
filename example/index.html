@@ -9,11 +9,11 @@
 <body>
 	输入要parse的字符串: <input type="text" id="str" onchange="parse()">
 	<p id="result">当你离开输入框后，函数将被触发，将展示parse的结果</p>
-	<script src="../src/index.js"></script>
+	<script src="../lib/index.js"></script>
 	<script type="text/javascript">
 		function parse(){
 			var x = document.getElementById("str");
-			document.getElementById("result").innerHTML=kopJsonParse(x.value)
+			document.getElementById("result").innerHTML= window.kopJsonParse(x.value)
 		}
 
 	</script>
