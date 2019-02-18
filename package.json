@@ -1,6 +1,6 @@
 {
   "name": "kop-json-parse",
-  "version": "0.2.4",
+  "version": "0.2.5",
   "description": "A better 'JSON.parse()'",
   "main": "lib/index.js",
   "files": [
