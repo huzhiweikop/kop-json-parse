@@ -13,7 +13,7 @@
 ## Usage
 
 ```
-//引入方法（cdn方式不用引入，会直接写入window对象kopJsonParse属性）
+//引入方法(CDN下载不需要这一步)
 let kopJsonParse = require('kopJsonParse')
 
 //执行方法
