@@ -19,3 +19,7 @@ let kopJsonParse = require('kopJsonParse')
 //执行方法
 kopJsonParse(str)
 ```
+
+## Test
+
+- Runkit：https://npm.runkit.com/kop-json-parse
