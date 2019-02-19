@@ -8,7 +8,7 @@
 
 - 下载地址：https://github.com/huzhiweikop/kop-json-parse/releases
 - NPM：`npm i kop-json-parse`
-- CDN：http://unpkg.com/kop-json-parse/index.js
+- CDN：http://unpkg.com/kop-json-parse/lib/index.js
 
 ## Usage
 

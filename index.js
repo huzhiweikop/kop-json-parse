@@ -8,7 +8,7 @@ let kopJsonParse = (str) =>{
 		return str
 	}
 }
-
-if(typeof module != 'undefined'){
-	module.exports = kopJsonParse
+if(typeof window != 'undefined'){
+	window.kopJsonParse = kopJsonParse
 }
+module.exports = kopJsonParse
